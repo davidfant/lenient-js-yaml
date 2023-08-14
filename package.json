@@ -28,7 +28,7 @@
   "module": "./dist/js-yaml.mjs",
   "exports": {
     ".": {
-      "import": "./dist/js-yaml.mjs",
+      "import": "./lib/loader.js",
       "require": "./index.js"
     },
     "./package.json": "./package.json"
